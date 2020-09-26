@@ -17,8 +17,8 @@ class School
     end
   end
 
-  def grade
-    
+  def grade(grade_level)
+    @roster[grade_level]
   end
 
 end
